@@ -1,0 +1,7 @@
+<div [hidden]="hide" *ngfor="let c of getCars()">
+  <h1>{{c.make}}</h1>
+  <h1>{{c.model}}</h1>
+  <h1>{{c.yom}}</h1>
+</div>
+
+<input type="button" value="Show" (click)="toggle()">
