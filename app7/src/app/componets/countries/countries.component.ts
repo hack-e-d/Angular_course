@@ -8,7 +8,7 @@ import { CountriesService} from '../../services/countries.service';
 })
 export class CountriesComponent implements OnInit {
 
-  private data: any;
+  public data: any;
   // tslint:disable-next-line:variable-name
   constructor(private _service: CountriesService) { }
 
