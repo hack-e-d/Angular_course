@@ -1,0 +1,5 @@
+<label>
+  <input type="text" [(ngModel)]="my_message"/>
+  <button (click)="convert({'message' : my_message})"></button>
+</label>
+<h1>{{result | json}}</h1>
